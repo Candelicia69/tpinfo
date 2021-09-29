@@ -1,0 +1,14 @@
+Bola b;
+
+void setup(){
+size(600, 600);
+
+//inicializacion del objeto  
+b = new Bola();
+}
+
+void draw(){
+  background (255);
+  //instruccion del objeto
+ b.display(); 
+}
